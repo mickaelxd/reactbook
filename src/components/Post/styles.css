@@ -1,0 +1,51 @@
+.post-header{
+  background: #eeeeee;
+  display: flex;
+  flex-direction: row;
+}
+.avatar{
+  height:40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.details{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.details > span {
+  font-weight: bold;
+}
+content{}
+
+.post-comments{
+
+}
+
+.divider{
+  border-top: 1px solid #eee;
+}
+
+.comment{
+  background: #eeeeee;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.comment> p > span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.post{
+  margin-top: 20px;
+}
+
+.content{
+  margin: 10px 0;
+}
